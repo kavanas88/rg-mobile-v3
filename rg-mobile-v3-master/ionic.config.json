@@ -1,0 +1,7 @@
+{
+  "name": "rg-patient",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

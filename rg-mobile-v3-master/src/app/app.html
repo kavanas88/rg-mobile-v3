@@ -1,0 +1,26 @@
+<ion-menu type="overlay" [content]="mycontent" swipeEnabled="false">
+    <ion-header>
+        <ion-toolbar>
+            <ion-title>Menu</ion-title>
+        </ion-toolbar>
+    </ion-header>
+    <ion-content>
+        <ion-list>
+            <ion-list-header text-center>More Menu</ion-list-header>
+            <button ion-item menuClose *ngFor="let p of pages" (click)="openPage(p)">
+                {{p.title}}
+            </button>
+            <ion-list-header   text-center>Rare Genomic Institute</ion-list-header>
+            <button ion-item menuClose *ngFor="let p1 of rgiMenuItems" (click)="openPage(p1)">
+                {{p1.title}}
+            </button>
+            <ion-list-header text-center>Settings</ion-list-header>
+            <button ion-item menuClose *ngFor="let p2 of settingsMenuItems" (click)="openPage(p2)">
+                {{p2.title}}
+            </button>
+            <ion-item text-center><button menuClose class="signOutMenuItem" (click)="signOut()">Sign out</button></ion-item>
+        </ion-list>
+    </ion-content>
+</ion-menu>
+
+<ion-nav #mycontent [root]="rootPage"></ion-nav>

@@ -1,0 +1,58 @@
+page-profile {
+
+  .formFill {
+    color: black;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 0;
+    display: flex;
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .labelForm {
+    max-width: 600px;
+    background: white;
+    padding: 0;
+    font-size: 16px;
+    margin: 0 auto;
+    height: 35px;
+    text-align: left;
+    color: #55526d;
+  }
+
+  .btnSave {
+    background: rgba(62, 142, 31, 1);
+    height: 200px;
+    background: #DB64D9; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #DB64D9 , #8656A7); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #DB64D9, #8656A7); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #DB64D9, #8656A7); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #DB64D9 , #8656A7); /* Standard syntax (must be last) */
+    color: white;
+    height:45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:5px;
+    margin-left:0px;
+}
+.btnDelete {
+    background:white;
+    border-color:#AD208E;
+    margin-right:10px;
+    color: #AD208E;
+    height:45px;
+    border-radius:5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.patientPhoto {
+  -webkit-justify-content: center !important;
+  display: flex;
+  justify-content: center !important;
+  padding-bottom: 40px;
+}
+
+}

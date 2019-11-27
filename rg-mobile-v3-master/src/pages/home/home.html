@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>My Health Hub</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-grid>
+    <ion-row justify-content-center>
+      <ion-col style="display:flex; justify-content: flex-end;" align-self-center>
+        <button class="menu-btn" ion-button (click)="onClickProfile()">My Profile</button>
+      </ion-col>
+      <ion-col align-self-center>
+        <button class="menu-btn" ion-button (click)="onClickProfile()">Symptoms</button>
+      </ion-col>
+    </ion-row>
+    <ion-row justify-content-center>
+      <ion-col style="display:flex; justify-content: flex-end;" align-self-center>
+        <button class="menu-btn" ion-button (click)="onClickProfile()">Hope Circle</button>
+      </ion-col>
+      <ion-col align-self-center>
+        <button class="menu-btn" ion-button (click)="onClickProfile()">Calendar</button>
+      </ion-col>
+    </ion-row>
+    <ion-row justify-content-center>
+      <ion-col style="display:flex; justify-content: flex-end;" align-self-center>
+        <button class="menu-btn" ion-button (click)="onClickProfile()">Medications</button>
+      </ion-col>
+      <ion-col align-self-center>
+        <button class="menu-btn" ion-button (click)="onClickProfile()">Records</button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

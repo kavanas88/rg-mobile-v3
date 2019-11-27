@@ -1,0 +1,163 @@
+page-main {
+  .create-account-btn {
+    background: #008fd1;
+    height: 45px;
+    margin: 6px auto;
+    border-radius: 5;
+    color: #fff;
+    width: 30%;
+  }
+
+  .welcome-lbl {
+    color: #ad208e;
+    text-align: center;
+    margin: 5px 0;
+    font-size: 24px;
+    // white-space: normal;
+    // overflow: visible;
+    // text-overflow:string;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+
+  .already-account-lbl {
+    font-size: 19px;
+    color: #000;
+    text-align: center;
+    padding: 25px;
+  }
+
+  .login-btn {
+    background: none;
+    height: 45px;
+    margin: 6px auto;
+    border-radius: 5;
+    display: block;
+    width: 30%;
+  }
+
+  .selection-lbl {
+    margin: 0 0 20px 0;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.2;
+  }
+
+  .email-lbl {
+    margin: 0 0 20px 0;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.2;
+  }
+
+  .submit-patient-name-btn {
+    background: #008fd1;
+    height: 45px;
+    margin: 6px auto;
+    border-radius: 5;
+    color: #fff;
+    // width: 30%;
+  }
+
+  .pwd-subHeader-text {
+    margin-bottom: 20px;
+    white-space: normal;
+    overflow: visible;
+    text-overflow: string;
+    font-size: 10px;
+    line-height: 1;
+  }
+
+  .pwd-lbl {
+    margin: 0 0 2px 0;
+    font-size: 24px;
+    font-weight: 400;
+  }
+  .agree-btn {
+    background: rgba(62, 142, 31, 1);
+    height: 200px;
+    background: #db64d9; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(
+      left,
+      #db64d9,
+      #8656a7
+    ); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(
+      right,
+      #db64d9,
+      #8656a7
+    ); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(
+      right,
+      #db64d9,
+      #8656a7
+    ); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(
+      to right,
+      #db64d9,
+      #8656a7
+    ); /* Standard syntax (must be last) */
+    color: white;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-left: 0px;
+  }
+  .disagree-btn {
+    background: white;
+    border-color: #ad208e;
+    margin-right: 10px;
+    color: #ad208e;
+    height: 45px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .forgot-pwd-btn {
+    background: none;
+    height: 45px;
+    margin: 6px auto;
+    border-radius: 5;
+    color: grey;
+    display: block;
+  }
+
+  .signIn-btn {
+    background: #008fd1;
+    height: 45px;
+    margin: 6px auto;
+    border-radius: 5;
+    color: #fff;
+    width: 30%;
+  }
+
+  .notification-subHeader-text {
+    margin-bottom: 50px;
+    white-space: normal;
+    overflow: visible;
+    text-overflow: string;
+    font-size: 15px;
+    line-height: 1.2;
+  }
+
+  .skip-btn {
+    background: none;
+    height: 45px;
+    margin: 6px auto;
+    border-radius: 5;
+    color: #008fd1;
+    display: block;
+  }
+
+  .notifyMe-btn {
+    background: #008fd1;
+    height: 45px;
+    margin: 6px auto;
+    border-radius: 5;
+    color: #fff;
+  }
+}
